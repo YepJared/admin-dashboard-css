@@ -67,9 +67,18 @@ a {
     min-height: 100vh;
 }
 
+.icon {
+    width: 24px;
+}
+
+.large-icon {
+    width: 36px;
+}
+
 .sidebar {
     background-color: var(--primary-color);
     grid-area: 1/1/5/2;
+    color: white;
 }
 
 .sidebar-link {
